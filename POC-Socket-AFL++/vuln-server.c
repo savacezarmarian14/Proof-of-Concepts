@@ -32,7 +32,7 @@ int main() {
                 printf("Crash triggered!\n");
                 *(int*)0 = 0;  // Intentional crash
             }
-    }
+        }
     } 
 
     close(clientfd);
